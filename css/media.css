@@ -1,0 +1,17 @@
+@media(max-width:420px){
+    .nav-line{
+        display: block;
+    }
+  .nav-content  .nav-right{
+        display: none;
+    }
+    .line:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .features-content{
+        justify-content: end;
+    }
+    .feature-item:not(:last-child){
+        margin-bottom: 30px;
+    }
+}
